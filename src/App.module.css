@@ -1,0 +1,97 @@
+.container {
+  max-width: 46rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+}
+
+.created {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--blue);
+}
+
+.countCreateTask {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  font-size: 0.75rem;
+  justify-content: center;
+  color: var(--gray-100);
+  border-radius: 50%;
+  background: var(--gray-400)
+}
+
+.countCompletedTask {
+  color: var(--gray-100);
+  display: flex;
+  padding: 0 0.5rem;
+  font-size: 0.75rem;
+  justify-content: center;
+  border-radius: 10px;
+  background: var(--gray-400);
+  color: var(--gray-100);
+}
+
+
+.completed {
+  color: var(--purple);
+  display: flex;
+  gap: 0.2rem;
+  color: var(--blue);
+}
+
+.info div span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
+
+
+.taskForm {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 638px 1fr;
+  gap: 0.5rem;
+  margin-top: calc(0px - 1.5rem - 32px);
+}
+
+.taskForm input {
+  width: 100%;
+  height: 3rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+  color: var(--gray-300);
+  border: 0;
+  padding: 1rem;
+}
+
+.taskForm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border: 0;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.taskForm button:hover {
+  background: var(--blue);
+}
